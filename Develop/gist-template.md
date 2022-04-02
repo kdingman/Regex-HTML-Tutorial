@@ -65,7 +65,7 @@ Character classes are used to distinguish characters. They can match different c
 
 The most common character classes are:  
     | Character | Description                                                             |
-    |-----------|:-----------------------------------------------------------------------:|
+    |---|---|
     | \d        | digit -> a character from 0 to 9                                        |
     | \s        | white space                                                             |
     | \w        | word -> it can be a letter of the alphabet, a digit or an underscore    |
