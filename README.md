@@ -64,12 +64,10 @@ This code does not have any OR Operators.
 Character classes are used to distinguish characters. They can match different characters in a single position present inside of brackets[] .  
 
 The most common character classes are:  
-    | Character | Description                                                             |
-    |-----------|:-----------------------------------------------------------------------:|
-    | \d        | digit -> a character from 0 to 9                                        |
-    | \s        | white space                                                             |
-    | \w        | word -> it can be a letter of the alphabet, a digit or an underscore    |
-    | .         | this will match any single character except a new line (\n)             |
+    **\d** -> digit -> a character from 0 to 9  
+    **\s** -> white space  
+    **\w** -> word -> it can be a letter of the alphabet, a digit or an underscore  
+    **.** -> this will match any single character except a new line (\n)  
 
 Our expression has the following code block `[\da-z\.-]` with a character class.  
 The \da-z will remove any character that is not a digit (\d) or a lower case letter (a-z).  
@@ -129,5 +127,3 @@ There are no Lookarounds in this tutorial.
 Kelly Dingman - wife, mother 🦄 🦖 🐾 , someone looking to better their career and learn all about coding.  
 
 [GitHub Profile](https://github.com/kdingman)
-
-
